@@ -1,15 +1,15 @@
 # Text-Simplification_BART
-- 日本語のTwitterテキストについての感情極性分類
+- 日本語のテキスト平易化
 * タスク
-  * 書き手の感情極性を5クラスで分類（-2, -1, 0, 1, 2）
-  * 評価指標： Quadratic Weighted Kappa
+  * 難解な文と平易な文に変換
+  * 評価指標： SARI
 
 * データセット
-  * データセットは [WRIME](https://github.com/ids-cv/wrime)
-  * 訓練用：30,000件、検証用：1,250件、評価用：1,250件
+  * データセットは [MATCHA](https://github.com/EhimeNLP/matcha)
+  * 訓練用：10,000件、検証用：3,000件、評価用：3,000件
 
 * モデル
-  * [studio-ousia/luke-japanese-large](https://huggingface.co/studio-ousia/luke-japanese-large)
+  * [Japanese BART Pretrained Model](https://github.com/utanaka2000/fairseq/blob/japanese_bart_pretrained_model/JAPANESE_BART_README.md)
 
 - 実行手順
 1. trainのフォルダをダウンロードし、以下のように実行<br>
