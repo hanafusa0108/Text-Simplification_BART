@@ -11,10 +11,11 @@
 * モデル
   * [Japanese BART Pretrained Model](https://github.com/utanaka2000/fairseq/blob/japanese_bart_pretrained_model/JAPANESE_BART_README.md)
 
-- 実行手順
-1. trainのフォルダをダウンロードし、以下のように実行<br>
-   ```python luke_train.py --config_file train_config.json```
-
-2. testのフォルダをダウンロードし、以下のように実行<br>
-   ```python luke_test.py --config_file test_config.json```
+- 実行の流れ
+1. fairseqをインストール
+2. jumanをインストール
+3. データセットにjumanを適用
+4. BARTを訓練
+5. テスト
+6. SARIで評価
 
