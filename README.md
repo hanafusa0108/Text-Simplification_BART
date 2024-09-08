@@ -5,7 +5,7 @@
   * 評価指標： SARI
 
 * データセット
-  * データセットは [MATCHA](https://github.com/EhimeNLP/matcha)
+  * データセットは [MATCHA](https://github.com/EhimeNLP/matcha)を使用
   * 訓練用：10,000件、検証用：3,000件、評価用：3,000件
 
 * モデル
